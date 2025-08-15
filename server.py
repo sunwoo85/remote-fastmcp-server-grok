@@ -16,7 +16,7 @@ client = OpenAI(
 )
 
 @mcp.tool
-def generate_text(
+def grok_generate_text(
     prompt: str,
     model: str = "grok-4",
     temperature: float = 0.2,
