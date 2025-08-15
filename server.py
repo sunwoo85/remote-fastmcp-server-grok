@@ -22,7 +22,7 @@ def grok_generate_text(
     temperature: float = 0.2,
     max_output_tokens: int = 2048,
     grounding: bool = True,  # enables Grok Live Search when True
-    delay_seconds: float = 45,
+    delay_seconds: float = 25,
 ) -> str:
     """
     Generate text with Grok.
